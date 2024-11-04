@@ -39,7 +39,7 @@ export default function Product_Detail() {
                         <Text>Category: {data.category}</Text>
                     </Card.Content>
                     <Card.Cover source={{ uri: data.thumbnail }} />
-                    <View style={{ flexDirection: 'row', justifyContent: 'flex-end', marginTop: 10 }}>
+                    <View style={{ flexDirection: 'row', justifyContent: 'flex-end', marginTop: 10, marginBottom: 10 }}>
                         <Button mode="contained" onPress={() => console.log('Pressed')} style={{ marginRight: 10 }}>
                             Delete
                         </Button>
